@@ -5,9 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\bigImg.jpg" />
+    <None Include="wwwroot\images\facebook.png" />
+    <None Include="wwwroot\images\leftImg.jpg" />
+    <None Include="wwwroot\images\logo.png" />
+    <None Include="wwwroot\images\openBrowser.png" />
+    <None Include="wwwroot\images\twitter.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="sendgrid" Version="9.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
 
 </Project>
